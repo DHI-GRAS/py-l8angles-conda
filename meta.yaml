@@ -1,0 +1,17 @@
+package:
+  name: py-l8angles
+  version: 0.1
+
+source:
+  git_rev: v0.1
+  git_url: https://github.com/DHI-GRAS/l8_angles.git
+
+requirements:
+  build:
+    - python
+    - cython
+    - numpy
+
+  run:
+    - python
+
