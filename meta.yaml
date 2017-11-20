@@ -8,12 +8,12 @@ source:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - cython
     - setuptools
     - numpy
 
   run:
-    - python
+    - python >=3.6
     - numpy
 
