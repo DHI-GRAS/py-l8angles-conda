@@ -26,7 +26,6 @@ if errorlevel 1 exit 1
 cd ..
 
 :: Setup python package
-%PYTHON% setup.py install --single-version-externally-managed ^
---record=record.txt
+%PYTHON% setup.py install
 if errorlevel 1 exit 1
 
