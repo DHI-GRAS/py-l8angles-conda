@@ -1,6 +1,6 @@
 package:
   name: py-l8angles
-  version: 0.1
+  version: "0.1"
 
 source:
   git_rev: 0.1
