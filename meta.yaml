@@ -3,15 +3,17 @@ package:
   version: 0.1
 
 source:
-  git_rev: v0.1
+  git_rev: 0.1
   git_url: https://github.com/DHI-GRAS/l8_angles.git
 
 requirements:
   build:
     - python
     - cython
+    - setuptools
     - numpy
 
   run:
     - python
+    - numpy
 
